@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844445622E264F3D00D327FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8444455E2E264F3D00D327FA /* Assets.xcassets */; };
+		844445AB2E2683C300D327FA /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844445AA2E2683C300D327FA /* Onboarding.swift */; };
+		844445CF2E278A5400D327FA /* Advantag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844445CE2E278A5400D327FA /* Advantag.swift */; };
+		844445E12E279E9200D327FA /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844445E02E279E9200D327FA /* Plan.swift */; };
+		844445F32E27F58D00D327FA /* Ext+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844445EE2E27F58D00D327FA /* Ext+Font.swift */; };
+		844445F42E27F58D00D327FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844445F12E27F58D00D327FA /* Constants.swift */; };
+		844445F52E27F58D00D327FA /* Geist-VariableFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844445EF2E27F58D00D327FA /* Geist-VariableFont.ttf */; };
+		844445F72E281E7F00D327FA /* OnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844445F62E281E7F00D327FA /* OnboardingVM.swift */; };
+		844445F92E2820FC00D327FA /* SubscriptVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844445F82E2820FC00D327FA /* SubscriptVM.swift */; };
+		844445FB2E2829EF00D327FA /* VPNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844445FA2E2829EF00D327FA /* VPNService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844445482E264ECA00D327FA /* TestVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8444455E2E264F3D00D327FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8444459F2E2661D900D327FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844445AA2E2683C300D327FA /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		844445CE2E278A5400D327FA /* Advantag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advantag.swift; sourceTree = "<group>"; };
+		844445E02E279E9200D327FA /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		844445EE2E27F58D00D327FA /* Ext+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Font.swift"; sourceTree = "<group>"; };
+		844445EF2E27F58D00D327FA /* Geist-VariableFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geist-VariableFont.ttf"; sourceTree = "<group>"; };
+		844445F12E27F58D00D327FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		844445F62E281E7F00D327FA /* OnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVM.swift; sourceTree = "<group>"; };
+		844445F82E2820FC00D327FA /* SubscriptVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptVM.swift; sourceTree = "<group>"; };
+		844445FA2E2829EF00D327FA /* VPNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		844445652E264F6B00D327FA /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		844445C22E26D7FE00D327FA /* OnboardingView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		844445CA2E26D83300D327FA /* SubscriptionView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SubscriptionView;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844445452E264ECA00D327FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8444453F2E264ECA00D327FA = {
+			isa = PBXGroup;
+			children = (
+				844445612E264F3D00D327FA /* TestVPN */,
+				844445492E264ECA00D327FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844445492E264ECA00D327FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844445482E264ECA00D327FA /* TestVPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8444455A2E264F3D00D327FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				844445AA2E2683C300D327FA /* Onboarding.swift */,
+				844445CE2E278A5400D327FA /* Advantag.swift */,
+				844445E02E279E9200D327FA /* Plan.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8444455B2E264F3D00D327FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				844445F62E281E7F00D327FA /* OnboardingVM.swift */,
+				844445F82E2820FC00D327FA /* SubscriptVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8444455C2E264F3D00D327FA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				844445FA2E2829EF00D327FA /* VPNService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8444455D2E264F3D00D327FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				844445C22E26D7FE00D327FA /* OnboardingView */,
+				844445CA2E26D83300D327FA /* SubscriptionView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		844445612E264F3D00D327FA /* TestVPN */ = {
+			isa = PBXGroup;
+			children = (
+				844445652E264F6B00D327FA /* App */,
+				844445F22E27F58D00D327FA /* Helpers */,
+				8444455A2E264F3D00D327FA /* Model */,
+				8444455D2E264F3D00D327FA /* View */,
+				8444455B2E264F3D00D327FA /* ViewModel */,
+				8444455C2E264F3D00D327FA /* Service */,
+				8444459F2E2661D900D327FA /* Info.plist */,
+				8444455E2E264F3D00D327FA /* Assets.xcassets */,
+			);
+			path = TestVPN;
+			sourceTree = "<group>";
+		};
+		844445F02E27F58D00D327FA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				844445EE2E27F58D00D327FA /* Ext+Font.swift */,
+				844445EF2E27F58D00D327FA /* Geist-VariableFont.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		844445F22E27F58D00D327FA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				844445F02E27F58D00D327FA /* Font */,
+				844445F12E27F58D00D327FA /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844445472E264ECA00D327FA /* TestVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844445532E264ECB00D327FA /* Build configuration list for PBXNativeTarget "TestVPN" */;
+			buildPhases = (
+				844445442E264ECA00D327FA /* Sources */,
+				844445452E264ECA00D327FA /* Frameworks */,
+				844445462E264ECA00D327FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				844445652E264F6B00D327FA /* App */,
+				844445C22E26D7FE00D327FA /* OnboardingView */,
+				844445CA2E26D83300D327FA /* SubscriptionView */,
+			);
+			name = TestVPN;
+			packageProductDependencies = (
+			);
+			productName = TestVPN;
+			productReference = 844445482E264ECA00D327FA /* TestVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844445402E264ECA00D327FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					844445472E264ECA00D327FA = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 844445432E264ECA00D327FA /* Build configuration list for PBXProject "TestVPN" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8444453F2E264ECA00D327FA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 844445492E264ECA00D327FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844445472E264ECA00D327FA /* TestVPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844445462E264ECA00D327FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844445F52E27F58D00D327FA /* Geist-VariableFont.ttf in Resources */,
+				844445622E264F3D00D327FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844445442E264ECA00D327FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844445CF2E278A5400D327FA /* Advantag.swift in Sources */,
+				844445F92E2820FC00D327FA /* SubscriptVM.swift in Sources */,
+				844445E12E279E9200D327FA /* Plan.swift in Sources */,
+				844445AB2E2683C300D327FA /* Onboarding.swift in Sources */,
+				844445FB2E2829EF00D327FA /* VPNService.swift in Sources */,
+				844445F72E281E7F00D327FA /* OnboardingVM.swift in Sources */,
+				844445F32E27F58D00D327FA /* Ext+Font.swift in Sources */,
+				844445F42E27F58D00D327FA /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		844445512E264ECB00D327FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CN66MVDHVX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844445522E264ECB00D327FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CN66MVDHVX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844445542E264ECB00D327FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN66MVDHVX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestVPN/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alex.com.TestVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844445552E264ECB00D327FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN66MVDHVX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestVPN/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alex.com.TestVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844445432E264ECA00D327FA /* Build configuration list for PBXProject "TestVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844445512E264ECB00D327FA /* Debug */,
+				844445522E264ECB00D327FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844445532E264ECB00D327FA /* Build configuration list for PBXNativeTarget "TestVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844445542E264ECB00D327FA /* Debug */,
+				844445552E264ECB00D327FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844445402E264ECA00D327FA /* Project object */;
+}
